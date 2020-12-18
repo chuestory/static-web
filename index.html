@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Esport TV</title>
     <link rel="StyleSheet" href="./css/style.css">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
 </head>
 
 <body>
+    <div class="container">
     <header>
-        <h1>MySite</h1>
-        <h3>Slogan go here...</h3>
+        <h1>Esport TV</h1>
+        <h3>Tin nóng về thể thao điện tử chuyên nghiệp</h3>
     </header>
     <nav>
         <ul>
-            <li><a data-section="home">Home</a></li>
-            <li><a data-section="services">Services</a></li>
+            <li><a data-section="home">Trang Chủ</a></li>
+            <li><a data-section="lol">Liên Minh Huyền Thoại</a></li>
+            <li><a data-section="CallofDuty">Call of Duty</a></li>
+            <li><a data-section="gaminggear">Gaming Gear</a></li>
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Products</a>
+                <a href="javascript:void(0)" class="dropbtn">Media</a>
                 <div class="dropdown-content">
-                    <a data-section="link1">Link 1</a>
-                    <a data-section="link2">Link 2</a>
-                    <a data-section="link3">Link 3</a>
+                    <a data-section="anh">Hình Ảnh</a>
+                    <a data-section="video">Video</a>
                 </div>
             </li>
             <li style="float:right"><a data-section="about">About us</a></li>
@@ -32,27 +32,343 @@
     </nav>
 
     <section id="home" class="hideable-section">
-        <div>Home content</div>
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">
+                  <div class="inner">
+                     <div class="slide slide_1">
+                        <div class="slide-content">
+                            <img src="img/faker2.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="slide slide_2">
+                        <div class="slide-content">
+                            <img src="img/faker2.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="slide slide_3">
+                        <div class="slide-content">
+                            <img src="img/faker2.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="slide slide_4">
+                        <div class="slide-content">
+                            <img src="img/faker2.jpg" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="controls">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div>
+         </div>  
+      <article>
+        <h3>Tin mới LMHT</h3>
+        <div class="news_list">
+            <div class="news_item">
+             <h4>SofM tái ký hợp đồng với Suning, khả năng trở thành đội trưởng của bầy sư tử?</h4>
+             <img src="img/news1.jpg" alt="">
+             <div class="content">
+                CHÍNH THỨC: SofM tái ký hợp đồng với Suning, khả năng trở thành đội trưởng của bầy sư tử?
+             </div>
+            </div>
+            <div class="news_item">
+                <h4>Riot tiết lộ chế độ Thăng Hoa sắp quay trở lại LMHT với diện mạo hoàn toàn mới</h4>
+                <img src="img/news2.jpg" alt="">
+                <div class="content">
+                    Đại diện Riot tiết lộ chế độ Thăng Hoa sắp quay trở lại LMHT với diện mạo hoàn toàn mới
+                </div>
+               </div>
+               <div class="news_item" id="fix">
+                <h4>LMHT: Những con bài sở hữu sức mạnh 'nghịch thiên' trong chế độ Đột Kích Nhà Chính</h4>
+                <img src="img/news3.jpg" alt="">
+                <div class="content">
+                    LMHT: Những con bài sở hữu sức mạnh 'nghịch thiên' trong chế độ Đột Kích Nhà Chính
+                </div>
+               </div>
+               <div style="clear: both;"></div>
+        </div>
+    </article>
+    <article>
+        <h3>Tin mới Gaming gear</h3>
+        <div class="news_list">
+            <div class="news_item">
+             <h4>Thử chơi Cyberpunk 2077 trên máy yếu, hình ảnh hơi tệ nhưng vẫn chiến tốt</h4>
+             <img src="img/news4.png" alt="">
+             <div class="content">
+                Nếu như chịu khó giảm cấu hình xuống mức thấp nhất, việc chơi game Cyberpunk 2077 vẫn có thể diễn ra bình thường.
+             </div>
+            </div>
+            <div class="news_item">
+                <h4>Trải nghiệm âm thanh đỉnh cao với tai nghe không dây Philips TAPH805</h4>
+                <img src="img/news5.png" alt="">
+                <div class="content">
+                    Thời lượng pin 30 giờ, sạc nhanh, âm thanh đáng kinh ngạc, điều khiển dễ dàng và thiết kế gấp thông minh,...
+                </div>
+               </div>
+               <div class="news_item" id="fix">
+                <h4>Western Digital giới thiệu hàng loạt sản phẩm chuyên phục vụ game thủ</h4>
+                <img src="img/news6.png" alt="">
+                <div class="content">
+                    Bộ 3 ổ cứng SSD với những cải tiến sáng tạo mới, hiệu năng cao dành cho game thủ nhằm tối ưu hóa hệ thống chơi game.
+                </div>
+               </div>
+               <div style="clear: both;"></div>
+        </div>
+    </article>
+    <article>
+        <h3>Tin mới Call of Duty</h3>
+        <div class="news_list">
+            <div class="news_item">
+             <h4>17h00 chiều nay – 4/12: Khởi tranh Bán kết Call of Duty Mobile Tournament</h4>
+             <img src="img/news7.png" alt="">
+             <div class="content">
+                17h00 chiều nay – 4/12: Khởi tranh Bán kết Call of Duty Mobile Tournament             </div>
+            </div>
+            <div class="news_item">
+                <h4>06 gương mặt vào Tứ kết giải đấu Call of Duty Mobile Tournament</h4>
+                <img src="img/news8.png" alt="">
+                <div class="content">
+                    06 gương mặt vào Tứ kết giải đấu Call of Duty Mobile Tournament
+                </div>
+               </div>
+               <div class="news_item" id="fix">
+                <h4>Call of Duty: Mobile VN - Những nhân vật huyền thoại trong Going Dark</h4>
+                <img src="img/news9.png" alt="">
+                <div class="content">
+                    Call of Duty: Mobile VN - Những nhân vật huyền thoại trong Going Dark
+                </div>
+               </div>
+               <div style="clear: both;"></div>
+        </div>
+    </article>
+    <footer>
+        
+        Esport TV 
+        
+    </footer>
     </section>
 
-    <section id="services" class="hideable-section">
-        <div>Services content</div>
+    <section id="lol" class="hideable-section">
+        <div id="banner">
+            <img src="img/faker.jpg"  />
+        </div>
+        <div id="main">
+            <div  id="left">
+                <ul>
+                    <li>
+                        <img src="img/news1.jpg" alt="">
+                        <h2>SofM tái ký hợp đồng với Suning, khả năng trở thành <br> đội trưởng của bầy sư tử?</h2><br>
+                        <h5>CHÍNH THỨC: SofM tái ký hợp đồng với Suning, khả năng trở thành đội trưởng của bầy sư tử?</h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/news2.jpg" alt="">
+                        <h2>Riot tiết lộ chế độ Thăng Hoa sắp quay trở lại <br>LMHT với diện mạo hoàn toàn mới</h2><br>
+                        <h5>Đại diện Riot tiết lộ chế độ Thăng Hoa sắp quay trở lại LMHT với diện mạo hoàn toàn mới</h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/news3.jpg" alt="">
+                        <h2>LMHT: Những con bài sở hữu sức mạnh 'nghịch thiên'<br> trong chế độ Đột Kích Nhà Chính</h2><br>
+                        <h5>LMHT: Những con bài sở hữu sức mạnh 'nghịch thiên' trong chế độ Đột Kích Nhà Chính</h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/newslol1.jpg" alt="">
+                        <h2>Sau khi giải nghệ, Uzi rất muốn quay trở lại thi<br>đấu nhưng lại bị chính... RNG ngăn cản?</h2><br>
+                        <h5>Sau khi giải nghệ, Uzi rất muốn quay trở lại thi đấu nhưng lại bị chính... RNG ngăn cản?</h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/newslol2.jpg" alt="">
+                        <h2>Bom tấn chính thức kích nổ: Nuguri gia nhập <br>FunPlus Phoenix</h2><br>
+                        <h5>Bom tấn chính thức kích nổ: Nuguri gia nhập FunPlus Phoenix</h5>
+                    </li>
+                </ul>
+            </div>
+            <div id="right">
+                <div class="menu_right">
+                    <h4>Danh mục tin tức</h4>
+                    <ul>
+                        <li><a href="">Tin Tức Mới</a></li>
+                        <li><a href="">Cộng Đồng</a></li>
+                        <li><a href="">Cẩm Nang Chơi Game</a></li>
+                        <li><a href="">Giải Đấu</a></li>
+                        <li><a href="">Cập Nhật Game</a></li>
+                        <li><a href="">Sự Kiện</a></li>
+                        <li><a href="">Hỗ Trợ Game thủ</a></li>
+                        <li><a href="">Video Hay</a></li>
+
+                    </ul>
+                </div>
+            </div><div style="clear: both;"></div>
+        </div>
+        <footer>
+        
+            Esport TV 
+            
+        </footer>
+
     </section>
 
+    <section id="CallofDuty" class="hideable-section">
+        <div id="banner">
+            <img src="img/faker.jpg"  />
+        </div>
+        <div id="main">
+            <div  id="left">
+                <ul>
+                    <li>
+                        <img src="img/news7.png" alt="">
+                        <h2>17h00 chiều nay – 4/12: Khởi tranh Bán kết Call<br> of Duty  Mobile Tournament</h2><br>
+                        <h5>17h00 chiều nay – 4/12: Khởi tranh Bán kết Call of Duty Mobile Tournament</h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/news8.png" alt="">
+                        <h2>06 gương mặt vào Tứ kết giải đấu Call of Duty <br>Mobile Tournament</h2><br>
+                        <h5>06 gương mặt vào Tứ kết giải đấu Call of Duty Mobile Tournament</h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/news9.png" alt="">
+                        <h2>Call of Duty: Mobile VN - Những nhân vật huyền <br>thoại trong Going Dark</h2><br>
+                        <h5>Call of Duty: Mobile VN - Những nhân vật huyền thoại trong Going Dark</h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/newscod1.png" alt="">
+                        <h2>Call of Duty Mobile Tournament & những điểm nóng <br>đến 1.000 độ C</h2><br>
+                        <h5>BCall of Duty Mobile Tournament & những điểm nóng đến 1.000 độ C</h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/newscod2.jpg" alt="">
+                        <h2>Free Fire đánh bại PUBGm, Liên Quân và cả Call <br> of Duty Mobile để giật giải “Game Mobile của năm”</h2><br>
+                        <h5>Free Fire đánh bại PUBGm, Liên Quân và cả Call of Duty Mobile để giật giải “Game Mobile của năm”</h5>
+                    </li>
+                </ul>
+            </div>
+            <div id="right">
+                <div class="menu_right">
+                    <h4>Danh mục tin tức</h4>
+                    <ul>
+                        <li><a href="">Tin Tức Mới</a></li>
+                        <li><a href="">Cộng Đồng</a></li>
+                        <li><a href="">Cẩm Nang Chơi Game</a></li>
+                        <li><a href="">Giải Đấu</a></li>
+                        <li><a href="">Cập Nhật Game</a></li>
+                        <li><a href="">Sự Kiện</a></li>
+                        <li><a href="">Hỗ Trợ Game thủ</a></li>
+                        <li><a href="">Video Hay</a></li>
+
+                    </ul>
+                </div>
+            </div><div style="clear: both;"></div>
+        </div>
+        <footer>
+        
+            Esport TV 
+            
+        </footer>
+    </section>
+    <section id="gaminggear" class="hideable-section">
+        <div id="banner">
+            <img src="img/faker.jpg"  />
+        </div>
+        <div id="main">
+            <div  id="left">
+                <ul>
+                    <li>
+                        <img src="img/news4.png" alt="">
+                        <h2>Thử chơi Cyberpunk 2077 trên máy yếu, hình ảnh hơi<br>tệ nhưng vẫn chiến tốt</h2><br>
+                        <h5>Nếu như chịu khó giảm cấu hình xuống mức thấp nhất,chơi game Cyberpunk 2077 vẫn diễn ra bình thường.</h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/news5.png" alt="">
+                        <h2>Trải nghiệm âm thanh đỉnh cao với tai nghe không <br> dây Philips TAPH805</h2><br>
+                        <h5>Thời lượng pin 30 giờ, sạc nhanh, âm thanh đáng kinh ngạc, điều khiển dễ dàng và thiết kế gấp thông minh,...</h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/news6.png" alt="">
+                        <h2>Western Digital giới thiệu hàng loạt sản phẩm <br>chuyên phục vụ game thủ</h2><br>
+                        <h5>Bộ 3 ổ cứng SSD với những cải tiến sáng tạo mới, hiệu năng cao dành cho game...</h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/newsgg1.png" alt="">
+                        <h2>Logitech G kết hợp BMW tạo ra trải nghiệm <br> đua xe hoàn hảo từ thực tế đến video game</h2><br>
+                        <h5>Chiều lòng cộng đồng game nước nhà, mới đây, BMW Club Việt Nam và Logitech G đã có màn...</h5>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="img/newsgg2.png" alt="">
+                        <h2>Mẹo nhỏ khiến Windows 10 nhanh, mượt và chơi<br> game đã hơn</h2>
+                        <h5>Chỉ cần ấn cụm phím Ctrl Alt Del, mở Task Manager lên chúng ta có thể thấy Windows 10 chạy....</h5>
+                    </li>
+                </ul>
+            </div>
+            <div id="right">
+                <div class="menu_right">
+                    <h4>Danh mục tin tức</h4>
+                    <ul>
+                        <li><a href="">Tin Tức Mới</a></li>
+                        <li><a href="">Cộng Đồng</a></li>
+                        <li><a href="">Cẩm Nang Chơi Game</a></li>
+                        <li><a href="">Giải Đấu</a></li>
+                        <li><a href="">Cập Nhật Game</a></li>
+                        <li><a href="">Sự Kiện</a></li>
+                        <li><a href="">Hỗ Trợ Game thủ</a></li>
+                        <li><a href="">Video Hay</a></li>
+                    </ul>
+                </div>
+            </div><div style="clear: both;"></div>
+        </div>
+        <footer>
+        
+            Esport TV 
+            
+        </footer>
+    </section>
     <section id="about" class="hideable-section">
         <div>About content</div>
     </section>
 
-    <section id="link1" class="hideable-section">
-        <div>Link1 content</div>
+    <section id="anh" class="hideable-section">
+        <div>ảnh content</div>
     </section>
 
-    <section id="link2" class="hideable-section">
-        <div>Link2 content</div>
-    </section>
-
-    <section id="link3" class="hideable-section">
-        <div>Link3 content</div>
+    <section id="video" class="hideable-section">
+        <div>video content</div>
     </section>
 
     <script>
@@ -70,6 +386,7 @@
             });
         });
     </script>
+    </div>
 </body>
 
 </html>
