@@ -1,4 +1,5 @@
 # Hồ Nam Dương - 1621060348 - Điện điện tử A - 61
+# Link Github: https://github.com/chuestory/static-web
 ## Bài thực hành thiết kế web
 
 ### Nội dung trang web
@@ -9,8 +10,14 @@
 >
 > Các hình ảnh được sử dụng được lấy từ trang web https://gamek.vn và https://lienminh.garena.vn
 
-### Demo Trang web
 
+
+
+
+
+### Demo Trang web
+#### About Us
+![About Us](https://user-images.githubusercontent.com/75984913/102611736-20edfc00-4162-11eb-8d8b-987aef709406.png)
 #### Trang chủ
 ![Trang chủ](https://user-images.githubusercontent.com/75984913/102611654-ec7a4000-4161-11eb-995b-a387989045a7.png)
 #### Liên Minh Huyền Thoại
@@ -21,5 +28,3 @@
 ![Gaming Gear](https://user-images.githubusercontent.com/75984913/102611774-319e7200-4162-11eb-8961-704a7e9f0dae.png)
 #### Hình Ảnh
 ![Hình Ảnh](https://user-images.githubusercontent.com/75984913/102611777-3400cc00-4162-11eb-9fff-bf4fb3f02d51.png)
-#### About Us
-![About Us](https://user-images.githubusercontent.com/75984913/102611736-20edfc00-4162-11eb-8d8b-987aef709406.png)
