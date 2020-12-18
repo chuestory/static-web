@@ -4,7 +4,9 @@
 ### Nội dung trang web
 
 > Trang web được viết là một trang báo về Esport - Thể thao điện tử.
+>
 > Được viết chủ yếu bằng HTML và CSS
+>
 > Các hình ảnh được sử dụng được lấy từ trang web https://gamek.vn và https://lienminh.garena.vn
 
 ### Demo Trang web
